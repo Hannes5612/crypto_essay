@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.31)  1 JUN 2021 21:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.31)  1 JUN 2021 22:12
 entering extended mode
 **./main.tex
 (main.tex
@@ -456,8 +456,6 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 (C:\Users\Hanes\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
 File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
-Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'chicago-authordate.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count341
@@ -548,6 +546,16 @@ Package biblatex Info: ... file 'blx-compat.def' found.
 (C:\Users\Hanes\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
 File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
 )
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+(C:\Users\Hanes\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-bibtex.def
+File: blx-bibtex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\Hanes\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
@@ -574,46 +582,39 @@ File: blx-natbib.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
 Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
  overwriting.
 )
-Package biblatex Info: Trying to load bibliography style 'chicago-authordate'..
-.
-Package biblatex Info: ... file 'chicago-authordate.bbx' found.
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
 
-(C:\Users\Hanes\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-chicago\chicag
-o-authordate.bbx
-File: chicago-authordate.bbx 2021/03/27 v 3.16 biblatex bibliography style
-\lositemsep=\skip102
-\cms@tempcnta=\count418
-\cms@tempcntb=\count419
-\c@bbx:relatedcount=\count420
-\c@bbx:relatedtotal=\count421
-)
-Package biblatex Info: Trying to load citation style 'chicago-authordate'...
-Package biblatex Info: ... file 'chicago-authordate.cbx' found.
+(C:\Users\Hanes\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bb
+x
+File: numeric.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
 
-(C:\Users\Hanes\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-chicago\chicag
-o-authordate.cbx
-File: chicago-authordate.cbx 2021/03/27 v 3.16 biblatex citation style
-Package biblatex Info: Trying to load citation style 'chicago-dates-common'...
-Package biblatex Info: ... file 'chicago-dates-common.cbx' found.
+(C:\Users\Hanes\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
+bx
+File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count418
+\c@bbx:relatedtotal=\count419
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
 
-(C:\Users\Hanes\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-chicago\chicag
-o-dates-common.cbx
-File: chicago-dates-common.cbx 2021/03/27 v 3.16 biblatex citation style
+(C:\Users\Hanes\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cb
+x
+File: numeric.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
 Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\footfullcite'.
-Package biblatex Info: Redefining '\fullcite'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
 Package biblatex Info: Redefining '\textcite'.
 Package biblatex Info: Redefining '\textcites'.
 Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\footcites'.
-Package biblatex Info: Redefining '\footcitetexts'.
-Package biblatex Info: Delimiter 'dateeradelim' in context '' already defined, 
-overwriting.
-))
+Package biblatex Info: Redefining '\smartcites'.
+)
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
@@ -622,12 +623,12 @@ File: biblatex.cfg
 )) (C:\Users\Hanes\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.st
 y
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
-\csq@reset=\count422
-\csq@gtype=\count423
-\csq@glevel=\count424
-\csq@qlevel=\count425
-\csq@maxlvl=\count426
-\csq@tshold=\count427
+\csq@reset=\count420
+\csq@gtype=\count421
+\csq@glevel=\count422
+\csq@qlevel=\count423
+\csq@maxlvl=\count424
+\csq@tshold=\count425
 \csq@ltx@everypar=\toks22
 
 (C:\Users\Hanes\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
@@ -647,7 +648,7 @@ Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
 (C:\Users\Hanes\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count428
+\l__color_backend_stack_int=\count426
 \l__pdf_internal_box=\box57
 ) (main.aux)
 \openout1 = `main.aux'.
@@ -674,16 +675,16 @@ LaTeX Font Info:    ... okay on input line 81.
 (C:\Users\Hanes\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count429
+\scratchcounter=\count427
 \scratchdimen=\dimen160
 \scratchbox=\box58
-\nofMPsegments=\count430
-\nofMParguments=\count431
+\nofMPsegments=\count428
+\nofMParguments=\count429
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count432
+\MPscratchCnt=\count430
 \MPscratchDim=\dimen161
-\MPnumerator=\count433
-\makeMPintoPDFobject=\count434
+\MPnumerator=\count431
+\makeMPintoPDFobject=\count432
 \everyMPtoPDFconversion=\toks24
 )
 (C:\Users\Hanes\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -704,7 +705,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count435
+\c@section@level=\count433
 )
 LaTeX Info: Redefining \ref on input line 81.
 LaTeX Info: Redefining \pageref on input line 81.
@@ -736,6 +737,9 @@ File: german.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' specified.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
 Package biblatex Info: Document encoding is UTF8 ....
  (C:\Users\Hanes\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2021-02-18 L3 programming layer (loader) 
@@ -755,20 +759,27 @@ Package: xparse 2020-10-27 L3 Experimental document command parser
 e-generic.tex))
 Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 )
-\openout3 = `main.bcf'.
+\openout3 = `main-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (main.bbl)
+ (main.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'coinmarketcap':
+(biblatex)                - Invalid format of field 'date' 
+(biblatex)                - Invalid format of field 'date' 
+(biblatex)                - Invalid format of field 'urldate'.
+
+)
 Package biblatex Info: Reference section=0 on input line 81.
 Package biblatex Info: Reference segment=0 on input line 81.
 LaTeX Font Info:    Trying to load font information for T1+phv on input line 92
 .
-
-(C:\Users\Hanes\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
+ (C:\Users\Hanes\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
-<logo.png, id=42, 702.625pt x 491.8375pt>
+<logo.png, id=47, 702.625pt x 491.8375pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 92.
@@ -779,11 +790,11 @@ Package pdftex.def Info: logo.png  used on input line 92.
 {C:/Users/Hanes/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./logo.png>]
 (main.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 10.
+(Font)              <12> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 10.
+(Font)              <8> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 10.
+(Font)              <6> on input line 12.
 )
 \tf@toc=\write5
 \openout5 = `main.toc'.
@@ -803,7 +814,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ] [3
 
 ]
-<./images/marketcap.pdf, id=79, 505.89pt x 216.81pt>
+<./images/marketcap.pdf, id=88, 505.89pt x 216.81pt>
 File: ./images/marketcap.pdf Graphic file (type pdf)
 <use ./images/marketcap.pdf>
 Package pdftex.def Info: ./images/marketcap.pdf  used on input line 146.
@@ -812,47 +823,44 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.169 \clearpage
+l.170 \clearpage
                  [1
 
 
  <./images/marketcap.pdf>] [2]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 17
+2.
 
-LaTeX Warning: Empty bibliography on input line 171.
+(C:\Users\Hanes\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+(Erklaerung.tex [3
 
-(Erklaerung.tex) [3
-
-] (main.aux)
-
-LaTeX Warning: There were undefined references.
-
+]) [4] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CEBF0296EC877A373A455B93D9CD256C;1328.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: 4E4EF440740AC4CAC3AB2FF767A6AFE4;1438.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21466 strings out of 479334
- 375459 string characters out of 2857084
- 1353533 words of memory out of 3000000
- 38628 multiletter control sequences out of 15000+200000
- 424160 words of font info for 54 fonts, out of 3000000 for 9000
+ 20046 strings out of 479334
+ 341993 string characters out of 2857084
+ 881923 words of memory out of 3000000
+ 37191 multiletter control sequences out of 15000+200000
+ 428584 words of font info for 60 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 71i,10n,74p,739b,3819s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 71i,10n,74p,1841b,3036s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Hanes/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
-/Users/Hanes/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb>
-<C:/Users/Hanes/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.p
-fb><C:/Users/Hanes/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8
-a.pfb>
-Output written on main.pdf (7 pages, 135751 bytes).
+/Users/Hanes/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><
+C:/Users/Hanes/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pf
+b><C:/Users/Hanes/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a
+.pfb><C:/Users/Hanes/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/upl
+r8a.pfb><C:/Users/Hanes/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/
+uplri8a.pfb>
+Output written on main.pdf (8 pages, 163493 bytes).
 PDF statistics:
- 156 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 182 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
+ 99 words of extra memory for PDF output out of 10000 (max. 10000000)
 
