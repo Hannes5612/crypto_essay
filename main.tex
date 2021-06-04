@@ -22,9 +22,10 @@
 \usepackage[utf8]{inputenc}
 \usepackage[bookmarks]{hyperref}
 \usepackage[justification=centering]{caption}
-\usepackage[natbib=true,backend=bibtex]{biblatex}
+\usepackage[natbib=true,backend=bibtex,style=numeric,sorting=none]{biblatex}
 \usepackage{csquotes}
 \bibliography{literatur}
+
 
 \renewcommand{\baselinestretch}{1.5} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -82,7 +83,7 @@
 
   \JMUTitle
       {Kryptowährungen }        % Titel der Arbeit
-      {Funktionsweise und Ausblick}                        % Vor- und Nachname des Autors
+      {Funktionsweise, Chancen und Risiken}                        % Vor- und Nachname des Autors
       
       {Wirtschaftswissenschaftlichen Fakultät}  % Name der Fakultaet
       {W"urzburg 2018}                          % Ort und Jahr der Erstellung
@@ -140,7 +141,7 @@
 
 Seit der Erfindung des Internets in den 90er Jahren befindet sich die Welt im digitalen Wandel. Das World Wide Web bietet Funktionen, die vor 20 Jahren als unvorstellbar galten, und das enorme Wachstumspotential der Technik ist noch lange nicht ausgeschöpft. Im Jahre 2009 ist diesem Zweig auch eine digitale Währung entsprungen und diese begleitet uns seither: Die Bitcoin. 
 Doch bei dieser einen Währung ist es nicht geblieben, denn in den vergangenen Zwölf Jahren haben sich tausende weitere dazu gesellt und eine eigene Ökonomie erschaffen, die das Potenzial einer digitalen Revolution besitzt.
-Kryptowährungen haben es dabei zuletzt wieder vermehrt in die Abendnachrichten geschafft, sei es wegen neuer Allzeithochs oder Kursabstürzen.\citep{schredder2018}
+Kryptowährungen haben es dabei zuletzt wieder vermehrt in die Abendnachrichten geschafft, sei es wegen neuer Allzeithochs oder Kursabstürzen.\cite{schredder2018}
 
 \begin{figure}[h]
 \includegraphics[scale=0.9]{./images/marketcap.pdf}
@@ -149,12 +150,66 @@ Kryptowährungen haben es dabei zuletzt wieder vermehrt in die Abendnachrichten 
 \end{figure}
 
 
-In der folgenden Arbeit werden Funktionsweise, Chancen und Risiken sowie die wirtschaftliche Bedeutung von Kryptowährungen genauer behandelt.
+In der folgenden Arbeit werden Funktionsweise, Chancen und Risiken sowie die wirtschaftliche Bedeutung von Kryptowährungen genauer behandelt, die Geschichte der Entwicklung wird explizit nicht thematisiert.
 
 \section{Funktionsweise}
-\subsection{Bitcoin}
-\subsection{Altcoins und Forks}
+
+Die Technologie, die viele Kryprowährungen und im besonderen Bitcoin auszeichnet, ist als Blockchain bekannt. Wie der Name bereits vermuten lässt, handelt es sich dabei um eine \glqq Kette\grqq aus \glqq Blöcken\grqq in denen beispielsweise jegliche Transaktionen unter Zuhilfenahme von kryptographischen Mechanismen gespeichert sind. \cite{soeteman2019}
+Die Blockchain ermöglicht es zudem, Daten nicht zentral speichern zu müssen, sonder diese dezentral in einem Peer to Peer (P2P) Netzwerk  abzulegen. In einem solchen Netz arbeiten alle Rechner, die Teil dessen sind, gleichberechtigt zusammen. Zu unterscheiden sind unterschiedliche Kryprowährungen meist in anderen Technologien,denn  so setzt Bitcoin beispielsweise zu Verifizierung der Transaktionen auf \glqq Proof-of-Work\grqq, wohingegen andere \glqq Proof-of-Stake\grqq nutzen. Weiter ist auch bemerkbar, dass Protokolle von Kryptowährungen die maximale Menge an in Umlauf befindlicher Geldmenge begrenzt können oder mal bestimmte Inflations- oder Deflationspolitik vorsehen. \cite{wegner2019}
+
+
+\subsection{Blockchain am Beispiel Bitcoin}
+Wie oben bereits beschrieben, verbirgt sich hinter dem Konzept der Blockchain ein Peer-to-Peer Netzwerk, und die Blockchain ermöglicht es so einen gemeinschaftlichen Konsens zu finden, ohne eine dritte zentrale Partei, wie eine Bank oder eine Regierung zu benötigen. Abbildung 2 und 3 zeigen diese Unterschiede anschaulich. 
+
+\begin{figure}[h]
+    \centering
+    \begin{minipage}{0.37\textwidth}
+        \centering
+        \includegraphics[width=0.7\textwidth]{./images/central.png} % first figure itself
+        \caption{Bank als Zentrale Drittpartei}
+    \end{minipage}
+    \begin{minipage}{0.37\textwidth}
+        \centering
+        \includegraphics[width=0.7\textwidth]{./images/decentral.png} % second figure itself
+        \caption{Dezentrales Peer-to-Peer Netzwerk}
+    \end{minipage}
+\end{figure}
+
+Vergleicht man beide Modelle, so werden alle zentral gespeicherten Daten einer Bank wie Kontostände und Überweisungen ebenso in einer Blockchain gespeichert, nur liegen dort die Datenbanken vielfach kopiert auf allen Rechnern des Netzwerkes vor. Wichtig ist zu erwähnen, dass es sich hierbei nicht um Kopien im geläufigen Sinne handelt, sondern, da es keine Originaldatenbank gibt, jede dieser Kopien den anderen gegenüber gleichwertig ist. Da in der Blockchain alle Transaktionen gespeichert sind, fungiert das Netzwerk somit als globales und kollektives Buchführungssystem, wodurch es zudem unmöglich ist Bitcoins zu vervielfachen oder zu fälschen.
+\cite{rosenberg2019}
+
+Jeder Nutzer des Netzes ist dabei als Client anzusehen und besitzt als solcher ein Wallet, das eine digitale Analogie zur Geldbörse darstellt. In dieser Wallet jedoch sind jedoch keine Coins aufbewahrt, vielmehr ist in der Wallet ein Schlüssel gespeichert, durch welchen man zugriff auf alle Bitcoin erhalten kann, die man bisher Empfangen hat. Betätigt nun ein Client eine Transaktion, so wird diese per \glqq Best-Effort\grqq -Prinzip an alle im Netzwerk befindlichen \glqq Miner\grqq  weitergeleitet. Diese kümmern sich darum, die Transaktionen zu bestätigen und in den nächsten Block der Blockchain einfließen zu lassen.
+
+Um dabei sicherzustellen, dass nur der rechtmäßige Besitzer die Informationen über gewollte Transaktionen seiner Bitcoins an Miner senden kann, verwendet das Protokoll der Bitcoin digitale Signaturen. Zum Zuge kommt ein asymmetrisches kryptographisches Verfahren, das mit privaten und öffentlichen Schlüsseln arbeitet, wobei beide Schlüssel nichts anderes als Zahlenkombinationen sind. Zur besseren Lesbarkeit dieser werden sie mehrmals gehashed um am Ende eine 34 stellige Zeichenkombination zu erhalten. Der private Key ist nur dem Besitzer bekannt und wird verwendet, um die eigenen Transaktionen mittels einem speziellen Algorithmus zu signieren. Der öffentliche Key ist, wie der Name bereits verrät, für jeden einsehbar und dient zur Überprüfung der Signatur einer abgesendeten Transaktion, denn ein privater und öffentlicher Schlüssel gehören immer zusammen. Somit lässt sich immer feststellen, ob bei einer Transaktion Absender und Besitzer übereinstimmen.(siehe Abb.4)
+\cite{soeteman2019}\cite{binance}
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.9]{./images/pubprivkey.png}
+\caption{Asymmetrische Kryptographie am Beispiel einer Bitcoin Transaktion \cite{coincierge}}
+\centering
+\end{figure}
+
+Wurde nun, wie tausendfach täglich, eine gültige Transaktion abgesendet, nimmt ein Miner diese in seine Version der Blockchain auf. Hier spielt nun die Dezentralisation eine große Rolle, denn alle Miner konkurrieren insgesamt darum, dass ihrer Version der Blockchain zu vertrauen ist und diese zur Fortsetzung der Blockchain verwendeter werden soll. Jeder Block der Bitcoin Blockchain hat dabei in etwa die Größe von Einem Megabyte, und ungefähr alle 10 Minuten wird der Blockchain ein neuer Block angehängt. Bevor dies allerdings geschieht, muss der Block zunächst \glqq gefunden\grqq. Im Wettkampf untereinander stellt jeder Miner zunächst seinen Block mit allen getätigten Transaktionen zusammen, und nutzt diesen dann zusammen mit zufälligen Zahlen, genannt Block Header, als Eingabe in den SHA256-Algorithmus. Ziel ist es dann durch ausprobieren verschiedenster Block-Header in der Ausgabe des Algorithmus eine bestimmte Anzahl an Nullen voranstehend zu haben. Die Genaue Anzahl an Nullen hängt dabei von der Gesamtmenge an Rechenleistung im Netz ab, denn sie ist variabel und passt sich automatisch an, um ungefähr bei Zehn Minuten Rechenzeit pro Block zu bleiben. \cite{fraunhofer2019}
+
+Wurde von einem Miner dann eine Korrekte Zahl gefunden verkündet dieser es im Netzwerk und die restlichen Geräte überprüfen den Hash des Blocks mit Hilfe des Block-Headers und zudem, ob auch alle Transaktionen im Block korrekt sind. Ist er gültig, übernehmen sie ihn. Als Belohnung für die geleistete Rechenarbeit erhält der Miner, dessen Block übernommen wird, als Belohnung eine vordefinierte Menge Bitcoin, die vorher noch nicht existierten, und zudem die Summe aller Transaktionsgebühren der im Block enthaltenen Transaktionen. \\
+
+Um Manipulationen von Transaktionen in früheren Blöcken zu verhindern, beinhaltet ein Block immer auch den Hash des vorherigen Blocks. Ändert man also den Inhalt eines früheren Blocks, so ändert sich damit auch dessen Hash, und der aller darauf folgenden Blöcke in einen ungültigen Hash. Diese \glqq Verkettung\grqq aller Blöcke führt zu dem Namen Blockchain. \cite{rosenberg2019}
+
+\subsection{Proof of Work vs Proof of Stake}
+Das oben beschriebene Konzept, wie es beispielsweise von den Kryptowährungen Bitcoin und Litecoin angewandt wird, nennt sich auch \glqq Proof-of-Work\grqq (PoW), denn für die Verifizierung der Legitimität (Proof) von Transaktionen müssen Berechnungen (Work) durchgeführt werden. Welche Ausmaße das aufgrund der Lukrativität des Bitcoin schürfen angenommen hat, verdeutlicht Abbildung 5.
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.7]{./images/energyconsume.pdf}
+\caption{Stromverbrauch des Bitcoin-Netzwerkes im Vergleich zu anderen Konsumenten \cite{statista2021}}
+\centering
+\end{figure}
+
+Wie sich unschwer erkennen lässt übersteigt der Energiebedarf des Bitcoin Minings inzwischen sogar den ganzer Länder, und im Vergleich zu IT-Riesen ist deren Energieverbrauch marginal. Da inzwischen in jeder Gesellschaftlichen Schicht jedoch klar wird, dass wir eine kommende Katastrophe die durch immer steigende Temperaturen dringlichst zu verhindern haben, wird die Kritik immer lauter. Ein Lösungsvorschlag hierbei lautet Proof-of-Stake, denn anders als bei PoW werden hier keine Berechnungen mehr benötigt. Es handelt sich dabei weitgehend um das selbe Konzept, nur dass anstelle des Arbeitens Sicherheiten in Form des jeweiligen Coin hinterlegt werden müssen und über den Zeitraum des Minings eingefroren bleiben. Mit diesem Anteil an eingefrorener Währung validiert ein Nutzer dann ebenso die Transaktionen für einen Block. Wer aus dem Pool aller Miner im Endeffekt ausgewählt wird, den Block zu validieren ist dabei in einem zuvor festgelegtem Algorithmus beschrieben und sollte möglichst Zufällig sein. Je nach Implementierung bekommen die Miner dann beispielsweise die transaktionsgebühren alles Transaktionen des verifizierten Block oder etwa jähliche Zinsen auf die eingefrohrenen Coins. \cite{soeteman2019}
 \subsection{Ethereum und Smart Contracts}
+
+Ethereum belegt gemessen an der Marktkapitalisierung den zweiten Platz aller Kryptowährungen, weswegen sich ein kurzer Blick hierauf lohnt. Im Vergleich zu Bitcoin scheint Ethereum zunächst sehr ähnlich zu sein, denn beide Protokolle verwenden eine Blockchain in Kombination mit Proof-of-Work, doch Ethereum ist mehr als eine reine Kryptowährung. In erster Linie ist Ethereum eine Plattform für die Entwicklung dezentraler Apps über sogenannte Smart Contracts. Ein solcher Smart Contract kann dabei von einem dezentralen Wahlsystem, über Kredite und Versicherungen bis hin zu Crowdfunding reichen. Hier ist auch von Vorteil, dass Ethereum Transaktionen deutlich schneller und günstiger verarbeiten kann als in Bitcoin. Der Konsens des Ethereum-Netzwerks ist zudem auf der Seite des Wechsels zu einem System dass auf Proof-of-Stake aufbaut, Test-Netzwerke sind bereits am laufen und der Wechsel des Hauptnetzes soll noch 2021 stattfinden. \cite{soeteman2019}
 
 \section{Chancen und Risiken}
 

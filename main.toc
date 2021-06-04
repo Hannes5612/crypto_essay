@@ -9,18 +9,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}Funktionsweise}{2}{section.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Bitcoin}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.1}Blockchain am Beispiel Bitcoin}{2}{subsection.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Altcoins und Forks}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.2}Proof of Work vs Proof of Stake}{5}{subsection.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Ethereum und Smart Contracts}{2}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.3}Ethereum und Smart Contracts}{6}{subsection.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Chancen und Risiken}{2}{section.3}%
+\contentsline {section}{\numberline {3}Chancen und Risiken}{7}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Konsequenzen}{2}{section.4}%
+\contentsline {section}{\numberline {4}Konsequenzen}{7}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Heutiges Geldsystem}{2}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.1}Heutiges Geldsystem}{7}{subsection.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Literatur}{3}{section*.6}%
+\contentsline {section}{Literatur}{8}{section*.9}%
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}

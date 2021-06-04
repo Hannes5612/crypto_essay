@@ -16,19 +16,7 @@
   {}
 \endgroup
 
-\datalist[entry]{nty/global//global/global}
-  \entry{coinmarketcap}{online}{}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{C}
-    \field{sortinithash}{C}
-    \field{title}{CoinMarketCap.com}
-    \verb{url}
-    \verb https://coinmarketcap.com/de/
-    \endverb
-    \warn{\item Invalid format of field 'date' \item Invalid format of field
-  'date' \item Invalid format of field 'urldate'}
-  \endentry
-
+\datalist[entry]{none/global//global/global}
   \entry{schredder2018}{book}{}
     \name{author}{1}{}{%
       {{hash=ST}{%
@@ -45,14 +33,175 @@
     \strng{fullhash}{ST1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
     \field{title}{Das Neue Geld, Bitcoin, Kryptowährungen und Blockchain
   verständlich erklärt.}
     \list{location}{1}{%
       {München}%
     }
     \field{year}{2018}
+  \endentry
+
+  \entry{coinmarketcap}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{CoinMarketCap.com}
+    \verb{url}
+    \verb https://coinmarketcap.com/de/
+    \endverb
+    \field{urlday}{01}
+    \field{urlmonth}{06}
+    \field{urlyear}{2021}
+    \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date'}
+  \endentry
+
+  \entry{soeteman2019}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SK}{%
+         family={Soeteman},
+         familyi={S\bibinitperiod},
+         given={Krijn},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley}%
+    }
+    \strng{namehash}{SK1}
+    \strng{fullhash}{SK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Kryptowährungen für Dummies}
+    \list{location}{1}{%
+      {Weinheim}%
+    }
+    \field{year}{2019}
+  \endentry
+
+  \entry{wegner2019}{book}{}
+    \name{author}{2}{}{%
+      {{hash=WT}{%
+         family={Wenger},
+         familyi={W\bibinitperiod},
+         given={Tobias},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=TKO}{%
+         family={Tokarski},
+         familyi={T\bibinitperiod},
+         given={Kim\bibnamedelima Oliver},
+         giveni={K\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley}%
+    }
+    \strng{namehash}{WTTKO1}
+    \strng{fullhash}{WTTKO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Kryptowährungen, Eine empirisch-qualitative Analyse von
+  Kryptowährungen gegenüber dem traditionellen Währungssystem}
+    \list{location}{1}{%
+      {Weinheim}%
+    }
+    \field{year}{2019}
+  \endentry
+
+  \entry{rosenberg2019}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RJ}{%
+         family={Rosenberg},
+         familyi={R\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+    }
+    \strng{namehash}{RJ1}
+    \strng{fullhash}{RJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{33}
+    \field{pages}{139–146}
+    \field{title}{Kryptowährungen}
+    \field{journaltitle}{Z Herz- Thorax- Gefäßchir}
+    \field{month}{04}
+    \field{year}{2019}
+  \endentry
+
+  \entry{binance}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Binance, Was ist eine digitale Signatur?}
+    \verb{url}
+    \verb https://academy.binance.com/de/articles/what-is-a-digital-signature
+    \endverb
+    \field{urlday}{03}
+    \field{urlmonth}{06}
+    \field{urlyear}{2021}
+    \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date'}
+  \endentry
+
+  \entry{coincierge}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Coincierge, Public Keys und Private Keys}
+    \verb{url}
+    \verb https://coincierge.de/wallets/
+    \endverb
+    \field{urlday}{03}
+    \field{urlmonth}{06}
+    \field{urlyear}{2021}
+    \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date'}
+  \endentry
+
+  \entry{fraunhofer2019}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SV}{%
+         family={Schlatt},
+         familyi={S\bibinitperiod},
+         given={Vincent},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Schweizer},
+         familyi={S\bibinitperiod},
+         given={André},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=UN}{%
+         family={Urbach},
+         familyi={U\bibinitperiod},
+         given={Nils},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=FG}{%
+         family={Fridgen},
+         familyi={F\bibinitperiod},
+         given={Gilbert},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SV+1}
+    \strng{fullhash}{SVSAUNFG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{BLOCKCHAIN: GRUNDLAGEN, ANWENDUNGEN UND POTENZIALE}
+    \field{month}{01}
+    \field{year}{2019}
+  \endentry
+
+  \entry{statista2021}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Bitcoin Devours More Electricity Than Many Countries}
+    \verb{url}
+    \verb https://www.statista.com/chart/18632/estimated-annual-electricity-con
+    \verb sumption-of-bitcoin/
+    \endverb
+    \field{urlday}{03}
+    \field{urlmonth}{06}
+    \field{urlyear}{2021}
+    \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date'}
   \endentry
 \enddatalist
 \endinput
