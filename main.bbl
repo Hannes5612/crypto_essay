@@ -230,6 +230,19 @@
   'date'}
   \endentry
 
+  \entry{binance2020}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Was ist eine 51 Prozent Attacke}
+    \verb{url}
+    \verb https://academy.binance.com/de/articles/what-is-a-51-percent-attack
+    \endverb
+    \field{urlday}{03}
+    \field{urlmonth}{06}
+    \field{urlyear}{2021}
+    \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date'}
+  \endentry
+
   \entry{neumann2017}{article}{}
     \name{author}{1}{}{%
       {{hash=NS}{%
@@ -250,6 +263,58 @@
     }
     \field{month}{11}
     \field{year}{2017}
+  \endentry
+
+  \entry{hmd2019}{article}{}
+    \name{author}{6}{}{%
+      {{hash=ESA}{%
+         family={E.\bibnamedelima Schütz},
+         familyi={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={Andreas},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TF}{%
+         family={Tobias},
+         familyi={T\bibinitperiod},
+         given={Fertig},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=KW}{%
+         family={Kristin},
+         familyi={K\bibinitperiod},
+         given={Weber},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=HV}{%
+         family={Henry},
+         familyi={H\bibinitperiod},
+         given={Vu},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=MH}{%
+         family={Matthias},
+         familyi={M\bibinitperiod},
+         given={Hirth},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=TTG}{%
+         family={Thomas},
+         familyi={T\bibinitperiod},
+         given={Tran-Gia},
+         giveni={T\bibinithyphendelim G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ESA+1}
+    \strng{fullhash}{ESATFKWHVMHTTG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{55}
+    \field{pages}{1155–1166}
+    \field{title}{Trust is Good, Blockchain is Better: Applying Blockchain to
+  Trust Issues in Crowdsourcing}
+    \field{journaltitle}{HMD, Praxis der Wirtschaftsinformatik}
+    \field{month}{07}
+    \field{year}{2018}
   \endentry
 \enddatalist
 \endinput

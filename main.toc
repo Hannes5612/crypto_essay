@@ -27,16 +27,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.2.3}Kriminalität}{9}{subsubsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.4}Weitere Risiken}{9}{subsubsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.4}Weitere Risiken}{10}{subsubsection.3.2.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3}Chancen}{10}{subsection.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4}Konsequenzen}{10}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.1}Grenzenlose Währung}{10}{subsubsection.3.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.4.1}Akzeptanz am Beispiel Bitcoin}{10}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Sicherheit in Krisenzeiten}{10}{subsubsection.3.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Ausblick}{10}{section.4}%
+\contentsline {subsubsection}{\numberline {3.3.3}Smart Contracts}{11}{subsubsection.3.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Literatur}{12}{section*.11}%
+\contentsline {section}{\numberline {4}Ausblick}{11}{section.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Literatur}{14}{section*.11}%
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
