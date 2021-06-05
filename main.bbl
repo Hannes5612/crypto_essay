@@ -203,5 +203,53 @@
     \warn{\item Invalid format of field 'date' \item Invalid format of field
   'date'}
   \endentry
+
+  \entry{eth2021}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{The Eth2 Upgrades}
+    \verb{url}
+    \verb https://ethereum.org/en/eth2/
+    \endverb
+    \field{urlday}{03}
+    \field{urlmonth}{06}
+    \field{urlyear}{2021}
+    \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date'}
+  \endentry
+
+  \entry{coindesk2021}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Bitcoin Price Chart}
+    \verb{url}
+    \verb https://www.coindesk.com/price/bitcoin
+    \endverb
+    \field{urlday}{03}
+    \field{urlmonth}{06}
+    \field{urlyear}{2021}
+    \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date'}
+  \endentry
+
+  \entry{neumann2017}{article}{}
+    \name{author}{1}{}{%
+      {{hash=NS}{%
+         family={Neumann},
+         familyi={N\bibinitperiod},
+         given={Sebastian},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NS1}
+    \strng{fullhash}{NS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Funktionsweise, rechtliche Einordnung und ökonomische
+  Auswirkungen der Kryptowährung Bitcoinn}
+    \list{location}{1}{%
+      {Bernberg}%
+    }
+    \field{month}{11}
+    \field{year}{2017}
+  \endentry
 \enddatalist
 \endinput

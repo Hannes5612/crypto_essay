@@ -15,12 +15,28 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3}Ethereum und Smart Contracts}{6}{subsection.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Chancen und Risiken}{7}{section.3}%
+\contentsline {section}{\numberline {3}Wirtschaftliche Bedeutung}{7}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Konsequenzen}{7}{section.4}%
+\contentsline {subsection}{\numberline {3.1}Kursentwicklung}{7}{subsection.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Heutiges Geldsystem}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {3.2}Risiken}{8}{subsection.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Literatur}{8}{section*.9}%
+\contentsline {subsubsection}{\numberline {3.2.1}Die 51\% Attacke}{8}{subsubsection.3.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.2}Überlastung}{8}{subsubsection.3.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.3}Kriminalität}{9}{subsubsection.3.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.4}Weitere Risiken}{9}{subsubsection.3.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3}Chancen}{10}{subsection.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4}Konsequenzen}{10}{subsection.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.4.1}Akzeptanz am Beispiel Bitcoin}{10}{subsubsection.3.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Ausblick}{10}{section.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Literatur}{12}{section*.11}%
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}

@@ -209,15 +209,70 @@ Das oben beschriebene Konzept, wie es beispielsweise von den Kryptowährungen Bi
 Wie sich unschwer erkennen lässt übersteigt der Energiebedarf des Bitcoin Minings inzwischen sogar den ganzer Länder, und im Vergleich zu IT-Riesen ist deren Energieverbrauch marginal. Da inzwischen in jeder Gesellschaftlichen Schicht jedoch klar wird, dass wir eine kommende Katastrophe die durch immer steigende Temperaturen dringlichst zu verhindern haben, wird die Kritik immer lauter. Ein Lösungsvorschlag hierbei lautet Proof-of-Stake, denn anders als bei PoW werden hier keine Berechnungen mehr benötigt. Es handelt sich dabei weitgehend um das selbe Konzept, nur dass anstelle des Arbeitens Sicherheiten in Form des jeweiligen Coin hinterlegt werden müssen und über den Zeitraum des Minings eingefroren bleiben. Mit diesem Anteil an eingefrorener Währung validiert ein Nutzer dann ebenso die Transaktionen für einen Block. Wer aus dem Pool aller Miner im Endeffekt ausgewählt wird, den Block zu validieren ist dabei in einem zuvor festgelegtem Algorithmus beschrieben und sollte möglichst Zufällig sein. Je nach Implementierung bekommen die Miner dann beispielsweise die transaktionsgebühren alles Transaktionen des verifizierten Block oder etwa jähliche Zinsen auf die eingefrohrenen Coins. \cite{soeteman2019}
 \subsection{Ethereum und Smart Contracts}
 
-Ethereum belegt gemessen an der Marktkapitalisierung den zweiten Platz aller Kryptowährungen, weswegen sich ein kurzer Blick hierauf lohnt. Im Vergleich zu Bitcoin scheint Ethereum zunächst sehr ähnlich zu sein, denn beide Protokolle verwenden eine Blockchain in Kombination mit Proof-of-Work, doch Ethereum ist mehr als eine reine Kryptowährung. In erster Linie ist Ethereum eine Plattform für die Entwicklung dezentraler Apps über sogenannte Smart Contracts. Ein solcher Smart Contract kann dabei von einem dezentralen Wahlsystem, über Kredite und Versicherungen bis hin zu Crowdfunding reichen. Hier ist auch von Vorteil, dass Ethereum Transaktionen deutlich schneller und günstiger verarbeiten kann als in Bitcoin. Der Konsens des Ethereum-Netzwerks ist zudem auf der Seite des Wechsels zu einem System dass auf Proof-of-Stake aufbaut, Test-Netzwerke sind bereits am laufen und der Wechsel des Hauptnetzes soll noch 2021 stattfinden. \cite{soeteman2019}
+Ethereum belegt gemessen an der Marktkapitalisierung den zweiten Platz aller Kryptowährungen, weswegen sich ein kurzer Blick hierauf lohnt. Im Vergleich zu Bitcoin scheint Ethereum zunächst sehr ähnlich zu sein, denn beide Protokolle verwenden eine Blockchain in Kombination mit Proof-of-Work, doch Ethereum ist mehr als eine reine Kryptowährung. In erster Linie ist Ethereum eine Plattform für die Entwicklung dezentraler Apps über sogenannte Smart Contracts. Ein solcher Smart Contract kann dabei von einem dezentralen Wahlsystem, über Kredite und Versicherungen bis hin zu Crowdfunding reichen. Hier ist auch von Vorteil, dass Ethereum Transaktionen deutlich schneller und günstiger verarbeiten kann als in Bitcoin. Der Konsens des Ethereum-Netzwerks ist zudem auf der Seite des Wechsels zu einem System dass auf Proof-of-Stake aufbaut, Test-Netzwerke sind bereits am laufen und der Wechsel des Hauptnetzes soll noch 2021 stattfinden. \cite{soeteman2019} \cite{eth2021}
 
-\section{Chancen und Risiken}
+\section{Wirtschaftliche Bedeutung}
 
 
-\section{Konsequenzen}
 
-\subsection{Heutiges Geldsystem}
+\subsection{Kursentwicklung}
 
+Seit Veröffentlichung des Bitcoin Protokolls im Jahre 2009 erlebt deren Kurs wiederholtes immenses Wachstum mit nachgefolgtem Absturz. Erhielt man zu Beginn ein Bitcoin für circa 0,0007 Euro, so musste man ein Jahr später schon 0,07 Euro dafür bezahlen, was zu einem immenser Wertsteigerung von 1000\% führt! Die führte sich lange so fort, 2011 wuchs der Wechselkurs von 1 Euro auf 20 Euro, gefolgt von einem ersten Crash auf 10 Euro in folge eines Hackerangriffs. Über die Jahre verbreiteten sich Bitcoin und Kryptowährungen immer weiter, das mag an dem aus der Finanzkrise noch immer fehlendem Vertrauen in Banken, dem Lockruf vermeintlicher Gewinne oder der Überzeugung die zentralen Geldinstitute abzuschaffen liegen. 
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{./images/btcchart.pdf}
+\caption{Wechselkurentwicklung von Bitcoin seit 2014 \cite{coindesk2021}}
+\centering
+\end{figure}
+
+Dies spiegelt sich auch in der Wertentwicklung dieser Währungen wieder, exemplarisch sieht man den Wechselkurs von Bitcoin in Abbildung 6. Nicht zuletzt hat Bitcoin neue Höchststände erreicht, und ist in den darauffolgenden Wochen erneut um über 25\% abgestürzt. Doch lässt sich das nicht nur über Bitcoin sagen, denn der gesamte Kryptowährungsmarkt ist diesem Kurs gefolgt. Kryptowährungen haben sich inzwischen als Wertanlage etabliert, wenn auch eine gewisse Risikobereitschaft vorliegen sollte.\cite{coinmarketcap}
+\subsection{Risiken}
+
+\subsubsection{Die 51\% Attacke}
+
+Wie bereits beschrieben ist es beim Mining von neuen Blöcken notwendig, den Konsens aller im dezentralen Netzwerk befindlichen Miner zu erhalten. Wäre es nun so, dass ein einziger Miner über 50\% aller Rechenleistung bereitstellen kann, ist dieser in der Lage böswillig Transaktionen rückgängig zu machen, was zum doppelten Ausgeben dieser Coins führen kann. Zudem kann verhindert werden, dass einige oder alle Transaktionen bestätigt werden. 
+
+Diese Szenario jedoch ist relativ unwahrscheinlich, da ein solcher Angriff wenig lukrativ und eher sehr Kostenintensiv ist und hauptsächlich dazu führen würde, den Kurs einer Kryprowährung stark zu vermindern oder die Kryptowährung komplett zu zerstören. \citep{binance2021}
+
+\subsubsection{Überlastung}
+
+Besonders in Hochzeiten von Kryptowährungen steigen Transaktionskosten ins Unermessliche da sehr viele Transaktionen getätigt werden, und um diese so schnell wie möglich im nächsten Block validiert zu bekommen, werden teils freiwillig höhere als übliche Transaktionsgebühren abgegeben, was zu allgemein steigenden Gebühren führt. Beispielsweise musste man 2017 umgerechnet teils 10 € Transaktionsgebühren für eine Bitcoinüberweisung zahlen, selbst wenn diese selbst nur einen Betrag von umgerechnet 5 € betrug. Dies liegt an der Begrenzten Größe der Blöcke und der festgelegten Dauer von 10 Minuten pro Block. 
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\textwidth]{./images/transactions.pdf}
+\caption{Maximales Transaktionsvolumen pro Sekunde im Vergleich \cite{rosenberg2019}}
+\centering
+\end{figure}
+
+Im direkten Vergleich mit dem Zahlungsdienstleister Visa scheinen Kryptowährungen meilenweit abgehängt zu sein, doch dreht es sich bei der Statistik in Abbildung 7 um die maximale Kapazität. Visa bearbeitet normalerweise maximal 1700 Transaktionen pro Sekunde, und das erreicht EOS mit 3000 pro Sekunde ebenso. Ein Ansatz um Bitcoin und Ethereum Transaktionen schnelle und günstiger zu gestalten wäre Blockgröße zu erhöhen, was bei Bitcoin beispielsweise schon getan wurde.\cite{rosenberg2019}
+
+\subsubsection{Kriminalität}
+
+Kryptowährungen sind ein häufig genutztes Mittel unter Kriminellen. Lösegeldforderungen bei verschlüsselten IT-Systemen oder im realen Leben bei Geiselnahmen sind schon länger Gang und Gäbe. Weiter wird auf digitalen Schwarzmarktplattformen nur in Kryptowährungen bezahlt, dort reichen Verkaufsangebote von Drogen über Waffen bis hin zu Auftragsmorden oder Menschenhandel. Der Grund hierfür liegt auf der Hand: Vermeintliche Anonymität die keiner Behörde die Nachverfolgung von Käufer oder Verkäufer ermöglicht. Nichtsdestominder muss man hier anmerken, dass nur ein marginaler Teil aller Transaktion tatsächlich kriminellen Ursprungs sind.
+
+Smart Contracts bieten zudem die Möglichkeit zum Beispiel ein Programm zu entwickeln, in dem ein Auftragsmord an einen Politiker entlohnt wird. Das Programm kann dann ebenfalls nicht nachverfolgt werden, da es eben dezentral gespeichert wird.  
+
+\subsubsection{Weitere Risiken}
+Ohne genauer darauf einzugehen sind hier weitere mögliche Risiken die Kryptowährungen begegnen aufgelistet: 
+
+\begin{itemize}
+  \item \textbf{Verlustrisiko:} Der Wert kann aufgrund verschiedener Szenarien auf Null fallen
+  \item \textbf{Verbotsrisiko:} Autoritäre Regierungen können ein Verbot von Kryptowährungen durchsetzten.
+  \item \textbf{Kontrollrisiko:} Open-Source und Dezentralisierung machen Kontrollen unmöglich
+  \item \textbf{Deflationsrisiko:} Dies ist aufgrund der technischen Begrenzung der in Umlauf befindlichen Coins einiger Kryptowährungen. 
+  \item \textbf{Regulierungsrisiko:} Durch staatliche Regulierung von Finanzprodukten könnten Unternehmen die mit Bitcoin handeln starke Regulierungen erfahren.
+\end{itemize}\citep{neumann2017}
+
+\subsection{Chancen}
+
+\subsection{Konsequenzen}
+
+\subsubsection{Akzeptanz am Beispiel Bitcoin}
+
+\section{Ausblick}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Literaturverzeichnis wird 
 %% automatisch eingefügt

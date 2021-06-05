@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.31)  4 JUN 2021 18:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.31)  5 JUN 2021 14:47
 entering extended mode
 **./main.tex
 (main.tex
@@ -790,6 +790,18 @@ Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                - Invalid format of field 'date' 
 (biblatex)                - Invalid format of field 'date'.
 
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'eth2021':
+(biblatex)                - Invalid format of field 'date' 
+(biblatex)                - Invalid format of field 'date'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'coindesk2021':
+(biblatex)                - Invalid format of field 'date' 
+(biblatex)                - Invalid format of field 'date'.
+
 )
 Package biblatex Info: Reference section=0 on input line 82.
 Package biblatex Info: Reference segment=0 on input line 82.
@@ -798,7 +810,7 @@ LaTeX Font Info:    Trying to load font information for T1+phv on input line 93
  (C:\Users\Hanes\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
-<logo.png, id=47, 702.625pt x 491.8375pt>
+<logo.png, id=79, 702.625pt x 491.8375pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 93.
@@ -833,7 +845,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ] [3
 
 ]
-<./images/marketcap.pdf, id=100, 505.89pt x 216.81pt>
+<./images/marketcap.pdf, id=148, 505.89pt x 216.81pt>
 File: ./images/marketcap.pdf Graphic file (type pdf)
 <use ./images/marketcap.pdf>
 Package pdftex.def Info: ./images/marketcap.pdf  used on input line 147.
@@ -847,18 +859,18 @@ l.159
 
 
  <./images/marketcap.pdf>]
-<./images/central.png, id=153, 631.35875pt x 631.35875pt>
+<./images/central.png, id=201, 631.35875pt x 631.35875pt>
 File: ./images/central.png Graphic file (type png)
 <use ./images/central.png>
 Package pdftex.def Info: ./images/central.png  used on input line 168.
 (pdftex.def)             Requested size: 119.32469pt x 119.32358pt.
-<./images/decentral.png, id=154, 664.4825pt x 632.3625pt>
+<./images/decentral.png, id=202, 664.4825pt x 632.3625pt>
 File: ./images/decentral.png Graphic file (type png)
 <use ./images/decentral.png>
 Package pdftex.def Info: ./images/decentral.png  used on input line 173.
 (pdftex.def)             Requested size: 119.32469pt x 113.55016pt.
  [2 <./images/central.png> <./images/decentral.png>]
-<./images/pubprivkey.png, id=166, 406.51875pt x 236.885pt>
+<./images/pubprivkey.png, id=214, 406.51875pt x 236.885pt>
 File: ./images/pubprivkey.png Graphic file (type png)
 <use ./images/pubprivkey.png>
 Package pdftex.def Info: ./images/pubprivkey.png  used on input line 189.
@@ -873,7 +885,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 196--197
  []
 
 [4 <./images/pubprivkey.png>]
-<./images/energyconsume.pdf, id=184, 505.89pt x 216.81pt>
+<./images/energyconsume.pdf, id=231, 505.89pt x 216.81pt>
 File: ./images/energyconsume.pdf Graphic file (type pdf)
 <use ./images/energyconsume.pdf>
 Package pdftex.def Info: ./images/energyconsume.pdf  used on input line 204.
@@ -890,59 +902,96 @@ Overfull \hbox (3.21822pt too wide) in paragraph at lines 201--208
 ra-ti-vi-tät des Bit-coin schür-
  []
 
-[5 <./images/energyconsume.pdf>] [6] [7]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 22
-7.
+[5 <./images/energyconsume.pdf>] [6]
+<./images/btcchart.pdf, id=299, 722.7pt x 361.35pt>
+File: ./images/btcchart.pdf Graphic file (type pdf)
+<use ./images/btcchart.pdf>
+Package pdftex.def Info: ./images/btcchart.pdf  used on input line 224.
+(pdftex.def)             Requested size: 414.6463pt x 207.32251pt.
+ [7 <./images/btcchart.pdf>]
+
+LaTeX Warning: Citation 'binance2021' on page 8 undefined on input line 236.
+
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 2
+40.
+(C:\Users\Hanes\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ppl.fd
+File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
+)
+Overfull \hbox (1.74138pt too wide) in paragraph at lines 240--241
+\T1/ppl/m/n/12 üb-li-che Trans-ak-ti-ons-ge-büh-ren ab-ge-ge-ben, was zu all-ge
+-mein stei-gen-den Ge-büh-ren führt.
+ []
+
+<./images/transactions.pdf, id=337, 722.7pt x 144.54pt>
+File: ./images/transactions.pdf Graphic file (type pdf)
+<use ./images/transactions.pdf>
+Package pdftex.def Info: ./images/transactions.pdf  used on input line 245.
+(pdftex.def)             Requested size: 414.6463pt x 82.92899pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8] [9 <./images/transactions.pdf>] [10]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 28
+2.
 
 (C:\Users\Hanes\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Overfull \hbox (1.36595pt too wide) in paragraph at lines 228--228
+Overfull \hbox (7.36595pt too wide) in paragraph at lines 283--283
 []\T1/ppl/m/n/12 Tobias Wen-ger und Kim Oli-ver To-karski. \T1/ppl/m/it/12 Kryp
 -towäh-run-gen, Ei-ne empirisch-qualitative
  []
 
 
-Overfull \hbox (11.33171pt too wide) in paragraph at lines 228--228
+Overfull \hbox (17.33171pt too wide) in paragraph at lines 283--283
 []\T1/ppl/m/it/12 Coincierge, Pu-blic Keys und Pri-va-te Keys\T1/ppl/m/n/12 . \
 T1/ppl/m/sc/12 url\T1/ppl/m/n/12 : []$\T1/pcr/m/n/12 https : / / coincierge . d
 e / wallets/$[]
  []
 
 
-Overfull \hbox (17.10075pt too wide) in paragraph at lines 228--228
+Overfull \hbox (23.10075pt too wide) in paragraph at lines 283--283
 []\T1/ppl/m/it/12 Bitcoin De-vours Mo-re Elec-tri-ci-ty Than Ma-ny Coun-tries\T
 1/ppl/m/n/12 . \T1/ppl/m/sc/12 url\T1/ppl/m/n/12 : []$\T1/pcr/m/n/12 https : / 
 / www . statista .
  []
 
-(Erklaerung.tex [8
+(Erklaerung.tex [11
 
-]) [9] (main.aux)
+]) [12] (main.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6604B17BB29B5EA1072CA100B39B6D6B;1639.
+(rerunfilecheck)             Checksum: B25E1FAA6D0D7E269150CFA358B65C54;2705.
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20113 strings out of 479334
- 343782 string characters out of 2857084
- 885360 words of memory out of 3000000
- 37238 multiletter control sequences out of 15000+200000
- 428584 words of font info for 60 fonts, out of 3000000 for 9000
+ 20184 strings out of 479334
+ 345281 string characters out of 2857084
+ 886546 words of memory out of 3000000
+ 37286 multiletter control sequences out of 15000+200000
+ 429138 words of font info for 62 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  71i,10n,74p,1841b,3036s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Hanes/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
-/Users/Hanes/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><
-C:/Users/Hanes/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pf
-b><C:/Users/Hanes/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a
-.pfb><C:/Users/Hanes/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/upl
-r8a.pfb><C:/Users/Hanes/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/
-uplri8a.pfb>
-Output written on main.pdf (13 pages, 252802 bytes).
+/Users/Hanes/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmr.pf
+b><C:/Users/Hanes/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.
+pfb><C:/Users/Hanes/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb
+8a.pfb><C:/Users/Hanes/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/u
+plb8a.pfb><C:/Users/Hanes/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatin
+o/uplr8a.pfb><C:/Users/Hanes/AppData/Local/Programs/MiKTeX/fonts/type1/urw/pala
+tino/uplri8a.pfb>
+Output written on main.pdf (16 pages, 299990 bytes).
 PDF statistics:
- 304 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
- 119 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 451 PDF objects out of 1000 (max. 8388607)
+ 56 named destinations out of 1000 (max. 500000)
+ 193 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -22,47 +22,49 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: main-blx.bib
 Database file #2: literatur.bib
+Warning--I didn't find a database entry for "binance2021"
 Biblatex version: 3.16
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 10 entries,
+You've used 13 entries,
             6393 wiz_defined-function locations,
-            1241 strings with 9979 characters,
-and the built_in function-call counts, 40499 in all, are:
-= -- 2090
-> -- 1674
-< -- 271
-+ -- 1549
-- -- 1106
-* -- 2093
-:= -- 4190
+            1253 strings with 10248 characters,
+and the built_in function-call counts, 51702 in all, are:
+= -- 2514
+> -- 2336
+< -- 365
++ -- 2102
+- -- 1598
+* -- 2566
+:= -- 5234
 add.period$ -- 0
-call.type$ -- 10
-change.case$ -- 86
-chr.to.int$ -- 168
-cite$ -- 18
-duplicate$ -- 4256
-empty$ -- 3902
-format.name$ -- 278
-if$ -- 7726
+call.type$ -- 13
+change.case$ -- 106
+chr.to.int$ -- 234
+cite$ -- 24
+duplicate$ -- 5451
+empty$ -- 5033
+format.name$ -- 323
+if$ -- 9732
 int.to.chr$ -- 0
-int.to.str$ -- 20
+int.to.str$ -- 25
 missing$ -- 0
-newline$ -- 201
-num.names$ -- 245
-pop$ -- 3136
+newline$ -- 246
+num.names$ -- 294
+pop$ -- 4154
 preamble$ -- 1
-purify$ -- 110
+purify$ -- 133
 quote$ -- 0
-skip$ -- 1377
+skip$ -- 1764
 stack$ -- 0
-substring$ -- 3611
-swap$ -- 1105
-text.length$ -- 233
+substring$ -- 4398
+swap$ -- 1457
+text.length$ -- 304
 text.prefix$ -- 1
 top$ -- 1
-type$ -- 328
+type$ -- 430
 warning$ -- 0
-while$ -- 521
+while$ -- 629
 width$ -- 0
-write$ -- 192
+write$ -- 234
+(There was 1 warning)
