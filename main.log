@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.31)  6 JUN 2021 16:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.31)  6 JUN 2021 19:14
 entering extended mode
 **./main.tex
 (main.tex
@@ -850,13 +850,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <./images/marketcap.pdf, id=148, 505.89pt x 216.81pt>
 File: ./images/marketcap.pdf Graphic file (type pdf)
 <use ./images/marketcap.pdf>
-Package pdftex.def Info: ./images/marketcap.pdf  used on input line 147.
+Package pdftex.def Info: ./images/marketcap.pdf  used on input line 149.
 (pdftex.def)             Requested size: 455.29678pt x 195.12718pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.159 
+l.161 
        [1
 
 
@@ -864,25 +864,25 @@ l.159
 <./images/central.png, id=201, 631.35875pt x 631.35875pt>
 File: ./images/central.png Graphic file (type png)
 <use ./images/central.png>
-Package pdftex.def Info: ./images/central.png  used on input line 168.
+Package pdftex.def Info: ./images/central.png  used on input line 170.
 (pdftex.def)             Requested size: 119.32469pt x 119.32358pt.
 <./images/decentral.png, id=202, 664.4825pt x 632.3625pt>
 File: ./images/decentral.png Graphic file (type png)
 <use ./images/decentral.png>
-Package pdftex.def Info: ./images/decentral.png  used on input line 173.
+Package pdftex.def Info: ./images/decentral.png  used on input line 175.
 (pdftex.def)             Requested size: 119.32469pt x 113.55016pt.
- [2 <./images/central.png> <./images/decentral.png>]
-<./images/pubprivkey.png, id=214, 406.51875pt x 236.885pt>
-File: ./images/pubprivkey.png Graphic file (type png)
-<use ./images/pubprivkey.png>
-Package pdftex.def Info: ./images/pubprivkey.png  used on input line 189.
-(pdftex.def)             Requested size: 365.86348pt x 213.19452pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
+[2]
+<./images/pubprivkey.png, id=212, 406.51875pt x 236.885pt>
+File: ./images/pubprivkey.png Graphic file (type png)
+<use ./images/pubprivkey.png>
+Package pdftex.def Info: ./images/pubprivkey.png  used on input line 191.
+(pdftex.def)             Requested size: 365.86348pt x 213.19452pt.
+ [3 <./images/central.png> <./images/decentral.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
 
  []
 
@@ -890,69 +890,78 @@ Underfull \hbox (badness 10000) in paragraph at lines 196--197
 <./images/energyconsume.pdf, id=231, 505.89pt x 216.81pt>
 File: ./images/energyconsume.pdf Graphic file (type pdf)
 <use ./images/energyconsume.pdf>
-Package pdftex.def Info: ./images/energyconsume.pdf  used on input line 204.
+Package pdftex.def Info: ./images/energyconsume.pdf  used on input line 206.
 (pdftex.def)             Requested size: 354.12057pt x 151.76596pt.
 
-Overfull \hbox (8.5699pt too wide) in paragraph at lines 201--208
+Overfull \hbox (8.5699pt too wide) in paragraph at lines 203--210
 \T1/ppl/m/n/12 die Ve-ri-fi-zie-rung der Le-gi-ti-mi-tät (Proof) von Trans-ak-t
 io-nen müs-sen Be-rech-nun-gen (Work)
  []
 
-[5 <./images/energyconsume.pdf>] [6]
-<./images/btcchart.pdf, id=299, 722.7pt x 361.35pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5] [6 <./images/energyconsume.pdf>] [7]
+<./images/btcchart.pdf, id=304, 722.7pt x 361.35pt>
 File: ./images/btcchart.pdf Graphic file (type pdf)
 <use ./images/btcchart.pdf>
-Package pdftex.def Info: ./images/btcchart.pdf  used on input line 224.
+Package pdftex.def Info: ./images/btcchart.pdf  used on input line 227.
 (pdftex.def)             Requested size: 414.6463pt x 207.32251pt.
- [7 <./images/btcchart.pdf>]
+ [8 <./images/btcchart.pdf>]
 LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 2
-40.
+43.
 
 (C:\Users\Hanes\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
-Overfull \hbox (1.74138pt too wide) in paragraph at lines 240--241
+Overfull \hbox (1.74138pt too wide) in paragraph at lines 243--244
 \T1/ppl/m/n/12 üb-li-che Trans-ak-ti-ons-ge-büh-ren ab-ge-ge-ben, was zu all-ge
 -mein stei-gen-den Ge-büh-ren führt.
  []
 
-<./images/transactions.pdf, id=338, 722.7pt x 144.54pt>
+<./images/transactions.pdf, id=342, 722.7pt x 144.54pt>
 File: ./images/transactions.pdf Graphic file (type pdf)
 <use ./images/transactions.pdf>
-Package pdftex.def Info: ./images/transactions.pdf  used on input line 245.
+Package pdftex.def Info: ./images/transactions.pdf  used on input line 248.
 (pdftex.def)             Requested size: 414.6463pt x 82.92899pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8] [9 <./images/transactions.pdf>] [10] [11] [12]
+[9] [10 <./images/transactions.pdf>] [11] [12] [13]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 29
-4.
+8.
 
 (C:\Users\Hanes\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Overfull \hbox (7.36595pt too wide) in paragraph at lines 295--295
+Overfull \hbox (7.36595pt too wide) in paragraph at lines 299--299
 []\T1/ppl/m/n/12 Tobias Wen-ger und Kim Oli-ver To-karski. \T1/ppl/m/it/12 Kryp
 -towäh-run-gen, Ei-ne empirisch-qualitative
  []
 
 
-Overfull \hbox (17.33171pt too wide) in paragraph at lines 295--295
+Overfull \hbox (17.33171pt too wide) in paragraph at lines 299--299
 []\T1/ppl/m/it/12 Coincierge, Pu-blic Keys und Pri-va-te Keys\T1/ppl/m/n/12 . \
 T1/ppl/m/sc/12 url\T1/ppl/m/n/12 : []$\T1/pcr/m/n/12 https : / / coincierge . d
 e / wallets/$[]
  []
 
 
-Overfull \hbox (23.10075pt too wide) in paragraph at lines 295--295
+Overfull \hbox (23.10075pt too wide) in paragraph at lines 299--299
 []\T1/ppl/m/it/12 Bitcoin De-vours Mo-re Elec-tri-ci-ty Than Ma-ny Coun-tries\T
 1/ppl/m/n/12 . \T1/ppl/m/sc/12 url\T1/ppl/m/n/12 : []$\T1/pcr/m/n/12 https : / 
 / www . statista .
  []
 
-[13
+[14
 
-] (Erklaerung.tex [14]) [15] (main.aux)
+] (Erklaerung.tex [15]
+<./images/unterschrift.png, id=434, 521.69907pt x 149.8097pt>
+File: ./images/unterschrift.png Graphic file (type png)
+<use ./images/unterschrift.png>
+Package pdftex.def Info: ./images/unterschrift.png  used on input line 12.
+(pdftex.def)             Requested size: 138.21777pt x 39.69023pt.
+) [16 <./images/unterschrift.png>] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: A71A16DEBDFD86C23C50A5E364AF00B6;2744.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -960,13 +969,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20190 strings out of 479334
- 345506 string characters out of 2857084
- 887622 words of memory out of 3000000
- 37290 multiletter control sequences out of 15000+200000
+ 20197 strings out of 479334
+ 345673 string characters out of 2857084
+ 887600 words of memory out of 3000000
+ 37295 multiletter control sequences out of 15000+200000
  429138 words of font info for 62 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 71i,10n,74p,1841b,3036s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 71i,11n,74p,1841b,3036s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Hanes/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/Hanes/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmr.pf
 b><C:/Users/Hanes/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.
@@ -975,9 +984,9 @@ pfb><C:/Users/Hanes/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb
 plb8a.pfb><C:/Users/Hanes/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatin
 o/uplr8a.pfb><C:/Users/Hanes/AppData/Local/Programs/MiKTeX/fonts/type1/urw/pala
 tino/uplri8a.pfb>
-Output written on main.pdf (19 pages, 306331 bytes).
+Output written on main.pdf (20 pages, 317069 bytes).
 PDF statistics:
- 472 PDF objects out of 1000 (max. 8388607)
- 61 named destinations out of 1000 (max. 500000)
- 193 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 478 PDF objects out of 1000 (max. 8388607)
+ 62 named destinations out of 1000 (max. 500000)
+ 198 words of extra memory for PDF output out of 10000 (max. 10000000)
 
