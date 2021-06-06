@@ -3,8 +3,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Abbildungsverzeichnis}{II}{section*.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Tabellenverzeichnis}{II}{section*.2}%
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}Funktionsweise}{2}{section.2}%
@@ -39,6 +37,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Ausblick}{11}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Literatur}{14}{section*.11}%
+\contentsline {section}{Literatur}{14}{section*.10}%
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
